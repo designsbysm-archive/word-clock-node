@@ -1,0 +1,6 @@
+api:
+  port: 4000
+  protocol: HTTP
+client:
+  angular: ../../client-angular/dist
+  react: ../../client-angular/build

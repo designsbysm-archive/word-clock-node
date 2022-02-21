@@ -1,0 +1,25 @@
+{
+  "name": "@designsbysm/word-clock-node",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "babel src -d build",
+    "prebuild": "rm -rf build",
+    "start": "nodemon --exec babel-node ./src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "@babel/node": "^7.16.8",
+    "eslint": "^8.8.0",
+    "nodemon": "^2.0.15"
+  }
+}
